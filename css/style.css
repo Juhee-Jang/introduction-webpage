@@ -1,0 +1,187 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    width:100%;
+}
+
+nav ul{
+    padding-right: 100px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: mediumaquamarine;
+}
+
+nav li {
+    float: right;
+    letter-spacing: 5px;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: tomato;
+    background-color: paleturquoise;
+}
+
+#profile {
+    padding: 5%;
+    display: flex;
+    float: center;
+}
+
+#profile_leftbox {
+    flex: 1;
+    padding-top: 130px;
+    padding-left: 150px;
+    float: center;
+    margin: 30px;
+}
+
+#profile_leftbox ul {
+    list-style-type: none;
+}
+
+#profile_leftbox li {
+    float: left;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+#name {
+    font-size: 80px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#job {
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#profile_leftbox .profile_content {
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#profile_rightbox {
+    flex: 1;
+    padding: 100px;
+    float: center;
+}
+
+#profile_rightbox img {
+    border:15px solid lightpink;
+    border-radius: 50%;
+}
+
+.menu_name {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#about {
+    padding-top: 100px;
+    padding-left: 250px;
+    padding-bottom: 100px;
+    display: flex;
+    float: center;
+}
+
+#about_leftbox {
+    flex: 1;
+    float: left;
+}
+
+#about_leftbox img{
+    flex: 1;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+#about_rightbox {
+    flex: 1;
+    padding-top: 30px;
+    float: left;
+}
+
+#about_rightbox .about_content {
+    padding-right: 170px;
+    padding-top: 15px;
+    font-size: 22px;
+}
+
+#skills {
+    padding-top: 30px;
+    font-size: x-large;
+    font-weight: bold;
+    color: hotpink;
+}
+
+#favorite {
+    padding-top: 100px;
+    padding-left: 250px;
+    padding-bottom: 150px;
+}
+
+#favorite img {
+    border: 3px lightpink solid;
+    margin: 30px 17px 0px 0px;
+    display: inline-block;
+}
+
+#portfolio {
+    padding-top: 100px;
+    padding-left: 250px;
+    padding-bottom: 200px;
+}
+
+#portfolio img {
+    border: 3px lightpink solid;
+    margin: 30px 17px 0px 0px;
+    display: inline-block;
+}
+
+#contact {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.email {
+    flex: 1;
+    width: 300px;
+    height: 300px;
+    margin: 100px 200px 100px 610px;
+    padding: 50px 20px;
+    text-align: center;
+    float: left;
+    border: 10px solid black
+}
+
+.email p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.email a {
+    text-decoration: none;
+    color: black;
+}
+
